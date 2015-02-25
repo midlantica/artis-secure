@@ -1,0 +1,75 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1021" measuredH="534" mockupW="846" mockupH="524">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="175" y="10" w="846" h="524" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Webcam" x="190" y="180" w="169" h="140" measuredW="177" measuredH="146" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="201" y="106" w="319" h="-1" measuredW="182" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Artis-Secure%20Ltd</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="190" y="97" w="818" h="70" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="812" y="109" w="184" h="58" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <size>14</size>
+        <text>geoff-h@artis-secure.com%0ALINKEDiN%0ATwitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Canvas" x="797" y="180" w="211" h="320" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="809" y="190" w="184" h="58" measuredW="275" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <size>16</size>
+        <text>Twitter%20News%20Feed</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="379" y="227" w="399" h="90" measuredW="275" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Integer%20posuere%20erat%20a%20ante%20venenatis%20dapibus%20posuere%20velit%20aliquet.%20Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula%2C%20eget%20lacinia%20odio%20sem%20nec%20elit.%20Aenean%20eu%20leo%20quam.%20Pellentesque%20ornare%20sem%20lacinia%20quam%20venenatis%20vestibulum.%20Maecenas%20sed%20diam%20eget%20risus%20varius%20blandit%20sit%20amet%20non%20magna.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::SubTitle" x="379" y="181" w="316" h="-1" measuredW="338" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Security%20lorem%20ipsum%20dolor%20est.</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::List" x="374" y="314" w="388" h="126" measuredW="100" measuredH="126" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text>-%20Software%20security%20training%2C%20threat%20modelling%0A-%20Security%20architecture%20consulting%0A-%20Security%20process%20consulting%0A-%20A%20soon%20to%20be%20released%20security%20process%20product</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::HRule" x="806" y="267" w="190" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::HRule" x="806" y="334" w="190" h="-1" measuredW="100" measuredH="10" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::HRule" x="806" y="400" w="190" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::HRule" x="806" y="467" w="190" h="-1" measuredW="100" measuredH="10" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="190" y="334" w="169" h="90" measuredW="275" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>16</size>
+        <text>%22Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula.%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::SubTitle" x="201" y="138" w="316" h="-1" measuredW="140" measuredH="17" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Super%20Duper%20Security</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="377" y="413" w="284" h="51" measuredW="264" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Check%20out%20quick%20Slideshow</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

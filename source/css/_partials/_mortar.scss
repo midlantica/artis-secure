@@ -1,0 +1,259 @@
+// UNPAD TO ZERO
+.itPad0          { padding:        0 !important; }
+
+
+.itPadL0,
+.itPadLeft0      { padding-left:   0 !important; }
+.itPadR0,
+.itPadRight0     { padding-right:  0 !important; }
+.itPadT0,
+.itPadTop0       { padding-top:    0 !important; }
+.itPadB0,
+.itPadBottom0    { padding-bottom: 0 !important; }
+.itPadLR0        { padding-left:   0 !important; padding-right:    0 !important; }
+.itPadTB0        { padding-top:     0 !important; padding-bottom:   0 !important; }
+
+// REPAD TO .5REM
+.itPadHalf,
+.itPadH          { padding:        .5rem !important; }
+.itPadLHalf,
+.itPadLH        { padding-left:   .5rem !important; }
+.itPadRHalf,
+.itPadRH         { padding-right:  .5rem !important; }
+.itPadR:Hlast-child { padding-right:  0rem !important; }
+.itPadTHalf,
+.itPadTH         { padding-top:    .5rem !important; }
+.itPadBHalf,
+.itPadBH         { padding-bottom: .5rem !important; }
+.itPadLHalfR,
+.itPadLRH         { padding-left:   .5rem !important; padding-right:   .5rem !important; }
+.itPadTHalfB,
+.itPadTBH         { padding-top:    .5rem !important; padding-bottom:   .5rem !important; }
+
+// REPAD TO 1REM
+.itPad1          { padding:        1rem !important; }
+.itPadL1,
+.itPadLeft1      { padding-left:   1rem !important; }
+.itPadR1,
+.itPadRight1     { padding-right:  1rem !important; }
+.itPadR1:last-child,
+.itPadRight1:last-child { padding-right:  0rem !important; }
+.itPadT1,
+.itPadTop1       { padding-top:    1rem !important; }
+.itPadB1,
+.itPadBottom1    { padding-bottom: 1rem !important; }
+.itPadLR1        { padding-left:   1rem !important; padding-right:   1rem !important; }
+.itPadTB1        { padding-top:    1rem !important; padding-bottom:   1rem !important; }
+
+// REPAD TO 1.5REM
+.itPad1H          { padding:        1.5rem !important; }
+.itPadL1H,
+.itPadLeft1H      { padding-left:   1.5rem !important; }
+.itPadR1H,
+.itPadRight1H     { padding-right:  1.5rem !important; }
+.itPadR1H:last-child,
+.itPadRight1H:last-child { padding-right:  0rem !important; }
+.itPadT1H,
+.itPadTop1H       { padding-top:    1.5rem !important; }
+.itPadB1H,
+.itPadBottom1H    { padding-bottom: 1.5rem !important; }
+.itPadLR1H        { padding-left:   1.5rem !important; padding-right:   1.5rem !important; }
+.itPadTB1H        { padding-top:    1.5rem !important; padding-bottom:   1.5rem !important; }
+
+
+/* REPAD TO 2REM
+------------------------------------------------*/
+.itPad2,
+.itPadTwo          { padding:        2rem !important; }
+.itPadL2,
+.itPadLeftTwo      { padding-left:   2rem !important; }
+.itPadR2,
+.itPadRightTwo     { padding-right:  2rem !important; }
+.itPadR2:last-child,
+.itPadRightTwo:last-child { padding-right:  0rem !important; }
+.itPadTop1H,
+.itPadTopOneHalf       { padding-top:    1.5rem !important; }
+.itPadT2,
+.itPadTopTwo       { padding-top:    2rem !important; }
+.itPadB2,
+.itPadBottomTwo    { padding-bottom: 2rem !important; }
+.itPadLR2,
+.itPadLRTwo        { padding-left:   2rem !important; padding-right:   2rem !important; }
+.itPadTB2,
+.itPadTBTwo        { padding-top:    2rem !important; padding-bottom:   2rem !important; }
+
+
+/* REPAD TO 2.5REM
+------------------------------------------------*/
+.itPad2H,
+.itPadTwoH          { padding:        2.5rem !important; }
+.itPadL2H,
+.itPadLeftTwoH      { padding-left:   2.5rem !important; }
+.itPadR2H,
+.itPadRightTwoH     { padding-right:  2.5rem !important; }
+.itPadR2:last-child,
+.itPadRightTwoH:last-child { padding-right:  0rem !important; }
+.itPadTop1H,
+.itPadTopOneHalf       { padding-top:    1.5rem !important; }
+.itPadT2H,
+.itPadTopTwoH       { padding-top:    2.5rem !important; }
+.itPadB2H,
+.itPadBottomTwoH    { padding-bottom: 2.5rem !important; }
+.itPadLR2H,
+.itPadLRTwoH        { padding-left:   2.5rem !important; padding-right:   2.5rem !important; }
+.itPadTB2H,
+.itPadTBTwoH        { padding-top:    2.5rem !important; padding-bottom:   2.5rem !important; }
+
+// >>>>>>>>>>>>>>>>>>>
+
+// MARGIN0 TO ZERO
+.itMargin0       { margin:         0rem !important; }
+.itMarginL0,
+.itMarginLeft0   { margin-left:    0rem !important; }
+.itMarginR0,
+.itMarginRight0  { margin-right:   0rem !important; }
+.itMarginT0,
+.itMarginTop0    { margin-top:     0rem !important; }
+.itMarginB0,
+.itMarginBottom0 { margin-bottom:  0rem !important; }
+.itMarginLR0     { margin-left:    0rem !important; margin-right:    0rem; }
+.itMarginTB0     { margin-top:    0rem; margin-bottom:    0rem; }
+
+// REMARGIN TO HALF
+.itMarginH,
+.itMarginHalf       { margin:         .5rem !important; }
+.itMarginLH,
+.itMarginLeftHalf   { margin-left:    .5rem !important; }
+.itMarginRH,
+.itMarginRightHalf  { margin-right:   .5rem !important; }
+.itMarginTH,
+.itMarginTopHalf    { margin-top:     .5rem !important; }
+.itMarginBH,
+.itMarginBottomHalf { margin-bottom:  .5rem !important;
+	&:last-child {
+		margin-bottom:0 !important;
+	}
+}
+.itMarginLRHalf,
+.itMarginLRH     { margin-left:    .5rem !important; margin-right:    .5rem !important; }
+.itMarginTBHalf,
+.itMarginTBH     { margin-top:    .5rem !important; margin-bottom:    .5rem !important; }
+
+
+// REMARGIN TO 1REM
+.itMarginOne,
+.itMargin1       { margin:         1rem !important; }
+.itMarginL1,
+.itMarginLeft1   { margin-left:    1rem !important; }
+.itMarginR1,
+.itMarginRight1  { margin-right:   1rem !important; }
+.itMarginT1,
+.itMarginTop1    { margin-top:     1rem !important; }
+.itMarginB1,
+.itMarginBottom1 { margin-bottom:  1rem !important;
+	// &:last-child {
+	// 	margin-bottom:0 !important;
+	// }
+}
+.itMarginLR1     { margin-left:    1rem !important; margin-right:    1rem !important; }
+.itMarginTB1     { margin-top:    1rem !important; margin-bottom:    1rem !important; }
+
+.itMarginLR2     { margin-left:    2rem !important; margin-right:    2rem !important; }
+.itMarginTB2     { margin-top:    2rem !important; margin-bottom:    2rem !important; }
+
+// REMARGIN TO 1.5REM
+.itMarginOneH,
+.itMargin1H       { margin:         1.5rem !important; }
+.itMarginL1H,
+.itMarginLeft1H   { margin-left:    1.5rem !important; }
+.itMarginR1H,
+.itMarginRight1H  { margin-right:   1.5rem !important; }
+.itMarginT1H,
+.itMarginTop1H    { margin-top:     1.5rem !important; }
+.itMarginB1H,
+.itMarginBottom1H { margin-bottom:  1.5rem !important; }
+.itMarginLR1H     { margin-left:    1.5rem !important; margin-right:    1.5rem !important; }
+.itMarginTB1H     { margin-top:    1.5rem !important; margin-bottom:    1.5rem !important; }
+
+/* REMARGIN TO 2REM
+-----------------------------------------------*/
+.itMargin2,
+.itMarginTwo       { margin:         2rem !important; }
+.itMarginL2,
+.itMarginLeftTwo   { margin-left:    2rem !important; }
+.itMarginR2,
+.itMarginRightTwo  { margin-right:   2rem !important; }
+.itMarginT2,
+.itMarginTopTwo    { margin-top:     2rem !important; }
+.itMarginB2,
+.itMarginBottomTwo { margin-bottom:  2rem !important; }
+.itMarginLR2,
+.itMarginLRTwo     { margin-left:    2rem !important; margin-right:    2rem !important; }
+
+
+// *********************************************
+/* BALANCED PADS & MARGINS by 1REM
+-----------------------------------------------*/
+// UNPAD BALANCED BY 1 REM
+.itPadBalHalf,
+.itPadBalH       { padding:        0.5rem !important; }
+.itPadLRBalH,
+.itPadLRBalHalf     { padding-left:   0.5rem !important; padding-right: 0.5rem !important; }
+.itPadTBBalH,
+.itPadTBBalHalf     { padding-top:    0.5rem !important; padding-bottom: 0.5rem !important; }
+
+// REPAD BALANCED BY 1 REM
+.itPadBal1,
+.itPadBalOne       { padding:        1rem !important; }
+.itPadLRBal1,
+.itPadLRBalOne     { padding-left:   1rem !important; padding-right:   1rem !important; }
+.itPadTBBal1,
+.itPadTBBalOne     { padding-top:    1rem !important; padding-bottom:   1rem !important; }
+
+// REPAD BALANCED BY 1.5 REM
+.itPadBal1H,
+.itPadBalOneHalf       { padding:        1.5rem !important; }
+.itPadLRBal1H,
+.itPadLRBalOneHalf     { padding-left:   1.5rem !important; padding-right:   1.5rem !important; }
+.itPadTBBal1H,
+.itPadTBBalOneHalf     { padding-top:    1.5rem !important; padding-bottom:   1.5rem !important; }
+
+// REPAD BALANCED BY 2 REM
+.itPadBal2,
+.itPadBalTwo       { padding:        2rem !important; }
+.itPadLRBal2,
+.itPadLRBalTwo     { padding-left:   2rem !important; padding-right:   2rem !important; }
+.itPadTBBal2,
+.itPadTBBalTwo     { padding-top:    2rem !important; padding-bottom:   2rem !important; }
+
+// ##############################
+// REMARGINS BALANCED
+
+// REMARGIN BALANCED .5rem
+.itMarginLRBalQ,
+.itMarginLRBalQtr  { margin-left:    0.25rem !important; margin-right:   0.25rem !important; }
+.itMarginTBBalQ,
+.itMarginTBBalQtr  { margin-top:     0.25rem !important; margin-bottom:   0.25rem !important; }
+
+.itMarginLRBalH,
+.itMarginLRBalHalf  { margin-left:    0.5rem !important; margin-right:   0.5rem !important; }
+.itMarginTBBalH,
+.itMarginTBBalHalf  { margin-top:     0.5rem !important; margin-bottom:   0.5rem !important; }
+
+// REMARGIN BALANCED 1rem
+.itMarginLRBal1,
+.itMarginLRBalOne  { margin-left:    1rem !important; margin-right:   1rem !important; }
+.itMarginTBBal1,
+.itMarginTBBalOne  { margin-top:     1rem !important; margin-bottom:   1rem !important; }
+
+// REMARGIN BALANCED 1.5rem
+.itMarginLRBal1H,
+.itMarginLRBalH  { margin-left:    1.5rem !important; margin-right:   1.5rem !important; }
+.itMarginTBBal1H,
+.itMarginTBBal1H  { margin-top:     1.5rem !important; margin-bottom:   1.5rem !important; }
+
+// REMARGIN BALANCED 2rem
+.itMarginLRBal2,
+.itMarginLRBalTwo  { margin-left:    2rem !important; margin-right:   2rem !important; }
+.itMarginTBBal2,
+.itMarginTBBalTwo  { margin-top:     2rem !important; margin-bottom:   2rem !important; }

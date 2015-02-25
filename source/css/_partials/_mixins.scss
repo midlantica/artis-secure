@@ -1,0 +1,18 @@
+@mixin circle ($diameter){
+    width: $diameter;
+    height: $diameter;
+    border-radius: $diameter /2;
+}
+
+%shadow {
+    @include box-shadow(black 2px 2px 4px);
+}
+
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float:right;
+}

@@ -1,0 +1,46 @@
+// COMPASS CONFIG???
+@import "html5boilerplate";
+@import "compass";
+// @import "susy";
+@import "breakpoint";
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// ############################
+
+// COLORS
+$primary:       #104F55;
+$primaryDk:     darken($primary,10);
+$secondary:     lighten($primary,20);
+$accent:        #F5A623;
+$bkgd:          #E1DDD2;
+$bkgdLt:        lighten($bkgd,5);
+$ivory:         rgba(255, 253, 244, 1);// #FFFDF4 IVORY
+
+$grey:          #333;
+$greyLighter:   lighten($grey,40);
+$greyLightest:  lighten($grey,70);
+
+$black:         #323232;
+$white:         white;
+
+$text:          $black;
+$paleyellow:    rgba(255,  255, 191, 0.6);//pale yellow trans
+
+// FONTS
+$font:          economica, "Helvetica Neue", Arial, sans-serif;
+$fontHead:      economica;
+$fontCopy:      neuton;
+
+a {
+    text-decoration: none;
+    @include transition-property(all);
+    @include transition-duration(0.2s);
+    @include transition-timing-function(ease-in);
+    @include link-colors(
+        $normal: $primary,
+        $visited: darken($primary,15),
+        $hover: darken($primary,15));
+}
+
+
