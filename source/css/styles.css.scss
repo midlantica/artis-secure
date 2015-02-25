@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5 {
     font-family: $fontHead;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.03em;
 }
 
 h1 { font-size: 1.5em; }
@@ -300,18 +301,20 @@ ul,ol {
 }
 
 .slideshowBtn {
-    font-size: 1.1em;
-    padding: 0.45em 1em 0.65em;
-    font-family: $font;
-    color: $ivory;
-    background: $secondary;
-    border-radius: 6px;
-    outline: 0px;
-    border: none;
-    margin: 0.5em 0 0.5em;
+    font-size: 1.1em !important;
+    padding: 0.3em 1.1em 0.45em !important;
+    font-family: economica !important;
+    color: $ivory !important;
+    background: $secondary !important;
+    border-radius: 6px !important;
+    outline: 0px !important;
+    border: none !important;
+    margin: 0.5em 0 0.5em !important;
+    letter-spacing: 0.04em;
+    -webkit-font-smoothing: antialiased;
     @include box-shadow($primaryDk 0px 3px 0px);
     &:hover {
-        background: darken($secondary,10);
+        background: darken($secondary,10) !important;
         @include box-shadow($primaryDk 0px 3px 0px);
     }
 }
@@ -339,6 +342,7 @@ ul,ol {
 
     .twitterFeed {
         padding: 0.2em 0.4em .3em;
+        background: lighten($accent,42);
         @include border-bottom-radius(4px);
         p {
             font-size: .85em;
