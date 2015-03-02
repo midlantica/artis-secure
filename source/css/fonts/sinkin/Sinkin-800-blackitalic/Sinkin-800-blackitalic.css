@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'sinkin-800-black-italic';
+    src: url('Sinkin-800-BlackItalic.eot');
+    src: url('Sinkin-800-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('Sinkin-800-BlackItalic.woff') format('woff'),
+         url('Sinkin-800-BlackItalic.ttf') format('truetype'),
+         url('Sinkin-800-BlackItalic.svg#sinkin-800-black-italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

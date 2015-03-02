@@ -9,10 +9,10 @@
 // ############################
 
 // COLORS
-$primary:       #104F55;
+$primary:       #333;
 $primaryDk:     darken($primary,10);
 $secondary:     lighten($primary,20);
-$accent:        #F5A623;
+$accent:        #66CCCC;
 $bkgd:          #E1DDD2;
 $bkgdLt:        lighten($bkgd,5);
 $ivory:         rgba(255, 253, 244, 1);// #FFFDF4 IVORY
@@ -28,9 +28,9 @@ $text:          $black;
 $paleyellow:    rgba(255,  255, 191, 0.6);//pale yellow trans
 
 // FONTS
-$font:          economica, "Helvetica Neue", Arial, sans-serif;
-$fontHead:      economica;
-$fontCopy:      neuton;
+$font:          'sinkin-400-regular', "Helvetica Neue", Arial, sans-serif;
+$fontHead:      sinkin-500-medium;
+$fontCopy:      sinkin-300-light;
 
 a {
     text-decoration: none;

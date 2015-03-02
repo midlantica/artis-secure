@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'sinkin-100-thin-italic';
+    src: url('Sinkin-100-ThinItalic.eot');
+    src: url('Sinkin-100-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('Sinkin-100-ThinItalic.woff') format('woff'),
+         url('Sinkin-100-ThinItalic.ttf') format('truetype'),
+         url('Sinkin-100-ThinItalic.svg#sinkin-100-thin-italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

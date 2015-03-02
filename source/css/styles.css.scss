@@ -14,13 +14,33 @@ html, html a {
 
 
 body {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 2;
     // @include container;
     // @include outer-container;
-    background: antiquewhite;
-    background: url(../img/pw_maze_white.png);
-    // padding-top: 0.5em;
+    background: $primary;
+    // background: url(../img/pw_maze_white.png);
+    // background-image: linear-gradient(#404040, #0d0d0d);
+    margin-top: 0.5em;
+}
+
+p,ul,ol {
+    font-family: $fontCopy;
+    font-style: normal;
+    font-size: 0.85em;
+    margin: 0em 0em .75em;
+    line-height: 2.1;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .small {
+        font-size: .85em;
+        // line-height: 1;
+    }
+}
+
+ul,ol {
+    padding: 0 0 0 1em;
 }
 
 .col1 {
@@ -37,24 +57,27 @@ main {
 }
 
 h1, h2, h3, h4, h5 {
-    color: $primary;
-    margin: 0em 0em 0em;
+    color: darken($accent,20);
+    margin: 0em 0em 0.25em;
     font-family: $fontHead;
+    line-height: 1.5;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0.03em;
 }
 
-h1 { font-size: 1.5em; }
-h2 { font-size: 1.25em; }
+h1 { font-size: 1.2em; }
+h2 { font-size: 1.1em; }
 h3 { font-size: 1em; }
-h4 { font-size: 0.75em; }
-h5 { font-size: 0.5em; }
-h6 { font-size: 0.35em; }
+h4 { font-size: 0.85em; }
+h5 { font-size: 0.7em; }
+h6 { font-size: 0.6em; }
 
 header, footer {
     padding: 0.5em 0.75em 0em .5em;
-    background: $primary;
+    // background: $primary;
+    @include linear-gradient(lighten($primary,05),darken($primary,15));
+    @include border-top-radius(6px);
 
     h1,h2,h3,h4,h5 {
         @extend .floatLeft;
@@ -97,11 +120,11 @@ header, footer {
             // }
         }
         .brandName {
-            color: $ivory;
-            font-size: 2.3em;
-            font-family: neuton-cursive;
-            letter-spacing: 0.01em;
-            margin: 0.2em 0 0;
+            color: $accent;
+            font-size: 2.45em;
+            font-family: sinkin-200-x-light;
+            // letter-spacing: 0.01em;
+            margin: 0.1em 0 0.25em;
             line-height: 0.7em;
             display: block;
             // @extend .floatLeft;
@@ -111,11 +134,11 @@ header, footer {
             // }
         }
         .tagline {
-            font-size: 1em;
+            font-size: 0.6em;
             font-family: $fontHead;
             color: lighten($secondary,50);
-            letter-spacing: .01em;
-            margin-bottom: 0.5em;
+            // letter-spacing: .01em;
+            // margin-bottom: 0.5em;
             display: block;
             // @extend .floatLeft;
             -webkit-font-smoothing: antialiased;
@@ -212,36 +235,19 @@ header, footer {
     }
 }
 
-p,ul,ol {
-    font-family: $fontCopy;
-    font-style: normal;
-    font-size: 1.1em;
-    margin: 0em 0em .75em;
-    line-height: 1.75;
-    &:last-child {
-        margin-bottom: 0;
-    }
-    .small {
-        font-size: .85em;
-        // line-height: 1;
-    }
+footer {
+    @include border-bottom-radius(6px);
 }
-
-ul,ol {
-    padding: 0 0 0 1em;
-}
-
-
 
 .quote,.quoteAtt {
     color: tint($primary,40);
-    font-size: 0.8em;
-    line-height: 1.65;
+    font-size: 0.65em;
+    line-height: 2.15;
     margin: .5em 0 0;
     @include media($mobile) {
-        fcolor: tint($primary,40);
-        font-size: 0.95em;
-        line-height: 1.35;
+        color: tint($primary,40);
+        font-size: 0.65em;
+        line-height: 2.15;
         margin: .5em 0 0;
     }
 }
@@ -272,12 +278,14 @@ ul,ol {
 }
 
 .servicesBox {
-    background: $bkgdLt;
+    // background: $primary;
+    // @include background-image(linear-gradient(red, orange));
+    @include linear-gradient(lighten($primary,05),darken($primary,15));
     @include border-radius(5px);
     padding: 0.5em 1em 0.8em;
-    border: 1px solid darken($bkgd,5);
+    // border: 1px solid darken($bkgd,5);
     &:hover {
-        border: 1px solid darken($bkgd,15);
+        // border: 1px solid darken($bkgd,15);
         // background: $bkgd;
         // Animation shorthand works the same as the CSS3 animation shorthand
         // @include animation(scale 5.0s ease-in, slide 2.0s ease);
@@ -286,14 +294,18 @@ ul,ol {
 
     h2 {
         line-height: 1.4;
+        color: lighten($accent,20);
     }
 
     p,ol,ul {
-        font-size: 1em;
-        line-height: 1.3;
+        font-size: 0.7em;
+        line-height: 2;
+        color: $ivory;
+        letter-spacing: 0.05em;
+
     }
     ul {
-        margin: 0 0 0;
+        margin: 0 0 0 0.5em;
         li {
              margin-bottom: .25em;
         }
@@ -301,21 +313,21 @@ ul,ol {
 }
 
 .slideshowBtn {
-    font-size: 1.1em !important;
+    font-size: 0.9em !important;
     padding: 0.3em 1.1em 0.45em !important;
-    font-family: economica !important;
+    font-family: $fontHead !important;
     color: $ivory !important;
-    background: $secondary !important;
+    background: darken($accent,15) !important;
     border-radius: 6px !important;
     outline: 0px !important;
     border: none !important;
-    margin: 0.5em 0 0.5em !important;
+    margin: 0.5em 0 0.7em !important;
     letter-spacing: 0.04em;
     -webkit-font-smoothing: antialiased;
-    @include box-shadow($primaryDk 0px 3px 0px);
+    @include box-shadow(darken($accent,25) 0px 3px 0px);
     &:hover {
-        background: darken($secondary,10) !important;
-        @include box-shadow($primaryDk 0px 3px 0px);
+        background: darken($accent,20) !important;
+        @include box-shadow(darken($accent,30) 0px 3px 0px);
     }
 }
 
@@ -332,11 +344,13 @@ ul,ol {
         // @include border-top-right-radius(3px);
         h3 {
             color: darken($greyLighter,15);
-            font-size: 0.9em;
+            font-size: 0.8em;
             line-height: 1.6;
             text-align: center;
             text-transform: uppercase;
             letter-spacing: 0.05em;
+            padding-bottom: 0.3em;
+
         }
     }
 
@@ -345,13 +359,14 @@ ul,ol {
         background: lighten($accent,42);
         @include border-bottom-radius(4px);
         p {
-            font-size: .85em;
-            line-height: 1.3em;
+            font-size: 0.75em;
+            line-height: 2em;
             margin: 0;
             &.small {
-                font-size: .7em;
+                font-size: .6em;
                 text-align: right;
                 font-style: italic;
+                margin-right: 1em;
             }
         }
         hr {
