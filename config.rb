@@ -100,6 +100,9 @@ preferred_syntax = :scss
 
 # Build-specific configuration
 configure :build do
+  # Minify HTML on build
+  activate :minify_html
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
