@@ -26,7 +26,7 @@ header, footer {
 }
 
 .content {
-    padding: .5em 0.5em 0;
+    padding: 1.5em 1.5em .75em;
     @include clearfix;
     // display: inline-block;
     background: $white;
