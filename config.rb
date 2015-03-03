@@ -35,6 +35,8 @@ end
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
+activate :bower
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -100,6 +102,7 @@ preferred_syntax = :scss
 
 # Build-specific configuration
 configure :build do
+
   # Minify HTML on build
   activate :minify_html
 
@@ -121,6 +124,7 @@ end
 
 # https://github.com/karlfreeman/middleman-deploy
 # $ middleman deploy [--build-before]
+
 activate :deploy do |deploy|
   deploy.method = :git
   # Optional Settings
