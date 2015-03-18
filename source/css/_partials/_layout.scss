@@ -23,7 +23,7 @@ header, footer {
 }
 
 .content {
-    padding: 1.5em 1.5em .75em;
+    padding: 1.5em 1.5em 1.5em;
     @include clearfix;
     background: $white;
     overflow: hidden;

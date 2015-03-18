@@ -7,11 +7,6 @@
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-html, html a {
-    // -webkit-font-smoothing: antialiased;
-    // text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-}
-
 body {
     font-size: 14px;
     line-height: 2;
@@ -93,6 +88,8 @@ header, footer {
     @include linear-gradient(lighten($primary,05),darken($primary,15));
     @include border-top-radius(6px);
     @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
+    @include clearfix;
+    clear: both;
 
     @include media($mobile) {
         @include span-columns(6);
@@ -252,6 +249,145 @@ header, footer {
     }
 }
 
+nav {
+    @include linear-gradient(lighten($primary,15),darken($primary,05));
+    @include clearfix;
+    clear: both;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        @include clearfix;
+
+        li {
+            list-style-type: none;
+            float: left;
+            display: inline-block;
+            // background: $primary;
+            @include linear-gradient(lighten($primary,05),darken($primary,15));
+            @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
+            padding: .25em 1.25em;
+            border-right: 1px solid $primaryDk;
+            &:hover {
+                @include linear-gradient(lighten($primary,15),darken($primary,05));
+                cursor: pointer;
+            }
+
+            @include media($mobile) {
+                width: 100%;
+            }
+
+            a {
+                color: darken($accent,20);
+                &:hover {
+                    color: $accent;
+                }
+                &:visited {
+                    color: darken($accent,20);
+                }
+            }
+
+            &:hover a {
+                // @include linear-gradient(lighten($primary,15),darken($primary,05));
+                cursor: pointer;
+                color: $accent;
+            }
+
+        }
+
+    }
+}
+
+// #######################
+// NAV BUTTONS
+
+.index nav ul li.home {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.contact nav ul li.contact {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.about nav ul li.about {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.threat nav ul li.threat {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.secureCoding nav ul li.secureCoding {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.secureEngineering nav ul li.secureEng {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+.xxxxx nav ul li.xxxxx {
+    @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $primaryDk !important;
+    a {
+        color: $primaryDk;
+        &:visited,
+        &:hover {
+            color: $primaryDk !important;
+        }
+    }
+}
+
+// END // NAV BUTTONS
+// ##################
+
 footer {
     @include border-top-radius(0px);
     @include border-bottom-radius(6px);
@@ -300,13 +436,14 @@ footer {
 
 .bioPic {
     border: 0;
-    background: url('../img/geoffrey_hill.png');
+    background: url('../img/geoffrey_hill.jpg');
     background-size: 90px 100px;
     width: 90px;
     height: 100px;
     @include media($mobile) {
         // @include span-columns(2);
-        background-size: 90px 100px;
+        background-size: 90px 128px;
+        // background-size: 90px 100px;
         width: 90px;
         height: 100px;
         float: left;
@@ -391,6 +528,10 @@ footer {
             @include box-shadow(darken($accent,30) 0px 3px 0px);
         }
     }
+
+    // .modal-window {
+    //     transition: 1s width, 1s 1s height !important;
+    // }
 }
 
 .flex-direction-nav a {
@@ -448,3 +589,14 @@ footer {
         }
     }
 }
+
+.about p,ul,li {
+    font-size: 10px;
+    b {
+        color: darken($accent,20);
+    }
+}
+
+
+
+

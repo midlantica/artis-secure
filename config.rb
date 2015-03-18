@@ -72,6 +72,13 @@ helpers do
 
     img
   end
+
+  # helpers do
+  #   def custom_page_classes
+  #     page_classes + " " + yield_content(:pageClasses)
+  #   end
+  # end
+
 end
 
 set :sass_dir, 'css'

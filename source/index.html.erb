@@ -2,25 +2,17 @@
 title: Artis-Secure Ltd - Making security Consistent, Repeatable and Measurable
 ---
 
-<header>
-    <div class="branding">
-        <div class="logo"></div>
-        <div class="brandName">Artis-Secure <small>Ltd.</small></div>
-        <div class="tagline">Consistent &bull; Repeatable &bull; Measurable</div>
-    </div>
+<!-- HEADER -->
+<%= partial "header" %>
 
-    <div class="headContact">
-        <button class="linkedin"><a href="http://uk.linkedin.com/pub/geoffrey-hill/0/7bb/61b/en" target="blank">Linked <span class="linkBox">in</span></a></button>
-        <p class="email"><a href="mailto:geoff-h@artis-secure.com">geoff-h@artis-secure.com</a></p>
-    </div>
-
-</header>
+<!-- NAVBAR -->
+<%= partial "nav" %>
 
 <div class="content">
 
     <section class="col1">
         <img class="bioPic">
-        <p class="quote">“The secure architecture activity works best when it is not a separate process but part and parcel of the solution architecture. Security architects should be integrating their patterns into the solution along-side the solution architects. In fact, they should be working <i>with</i> the solution architects to produce the solution.”</p>
+        <p class="quote">“Secure architecture activity works best when it is integral to the solution architecture.”</p>
         <p class="quoteAtt">– Geoffrey Hill</p>
     </section>
 
@@ -39,36 +31,19 @@ title: Artis-Secure Ltd - Making security Consistent, Repeatable and Measurable
             </ul>
 
             <!-- SLIDESHOW -->
-            <%= partial "modal" %>
+            <%= partial "slideshow" %>
 
         </div>
 
     </main>
 
     <aside class="col3">
-        <div class="twitterBox">
-            <div class="twitterHeader">
-                <h3>Twitter Feed</h3>
-            </div>
-            <div class="twitterFeed">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quaerat illo praesentium animi minus.</p>
-                <p class="small">Lorem Ipsum Dolor</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque perferendis. Eaque perferendis praesentium animi praesentium animi</p>
-                <p class="small">Lorem Ipsum Dolor</p>
-                <hr>
-                <p>Facilis nesciunt nam veniam ex quaerat illo praesentium animi.</p>
-                <p class="small">Lorem Ipsum Dolor</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo praesentium animi minus.</p>
-                <p class="small">Lorem Ipsum Dolor</p>
-            </div>
-        </div>
+        <!-- TWITTER -->
+        <%= partial "twitter" %>
     </aside>
 
 </div>
 
-<footer>
-    <p class="copyright">Copyright &copy; <%= Time.now.year %> Artis-Secure Ltd. All rights reserved</p>
-</footer>
+<!-- FOOTER -->
+<%= partial "footer" %>
 
