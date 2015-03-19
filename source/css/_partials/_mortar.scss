@@ -30,6 +30,15 @@
 .itPadTHalfB,
 .itPadTBH         { padding-top:    .5rem !important; padding-bottom:   .5rem !important; }
 
+// REPAD TO .25REM
+.itPadQ          { padding:        .25rem !important; }
+.itPadLQ        { padding-left:   .25rem !important; }
+.itPadRQ         { padding-right:  .25rem !important; }
+.itPadTQ         { padding-top:    .25rem !important; }
+.itPadBQ         { padding-bottom: .25rem !important; }
+.itPadLRQ         { padding-left:   .25rem !important; padding-right:   .25rem !important; }
+.itPadTBQ         { padding-top:    .25rem !important; padding-bottom:   .25rem !important; }
+
 // REPAD TO 1REM
 .itPad1          { padding:        1rem !important; }
 .itPadL1,
@@ -129,16 +138,20 @@
 .itMarginTH,
 .itMarginTopHalf    { margin-top:     .5rem !important; }
 .itMarginBH,
-.itMarginBottomHalf { margin-bottom:  .5rem !important;
-	&:last-child {
-		margin-bottom:0 !important;
-	}
-}
+.itMarginBottomHalf { margin-bottom:  .5rem !important; }
 .itMarginLRHalf,
 .itMarginLRH     { margin-left:    .5rem !important; margin-right:    .5rem !important; }
 .itMarginTBHalf,
 .itMarginTBH     { margin-top:    .5rem !important; margin-bottom:    .5rem !important; }
 
+// REMARGIN TO QUARTER
+.itMarginQ       { margin:         .25rem !important; }
+.itMarginLQ      { margin-left:    .25rem !important; }
+.itMarginRQ      { margin-right:   .25rem !important; }
+.itMarginTQ      { margin-top:     .25rem !important; }
+.itMarginBQ      { margin-bottom:  .25rem !important; }
+.itMarginLRQ     { margin-left:    .25rem !important; margin-right:    .25rem !important; }
+.itMarginTBQ     { margin-top:     .25rem !important; margin-bottom:   .25rem !important; }
 
 // REMARGIN TO 1REM
 .itMarginOne,
@@ -150,11 +163,7 @@
 .itMarginT1,
 .itMarginTop1    { margin-top:     1rem !important; }
 .itMarginB1,
-.itMarginBottom1 { margin-bottom:  1rem !important;
-	// &:last-child {
-	// 	margin-bottom:0 !important;
-	// }
-}
+.itMarginBottom1 { margin-bottom:  1rem !important; }
 .itMarginLR1     { margin-left:    1rem !important; margin-right:    1rem !important; }
 .itMarginTB1     { margin-top:    1rem !important; margin-bottom:    1rem !important; }
 

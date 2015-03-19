@@ -13,6 +13,7 @@ $primary:       #333;
 $primaryDk:     darken($primary,10);
 $secondary:     lighten($primary,20);
 $accent:        #66CCCC;
+$accentDk:      darken($accent,20);
 $bkgd:          #E1DDD2;
 $bkgdLt:        lighten($bkgd,5);
 $ivory:         rgba(255, 253, 244, 1);// #FFFDF4 IVORY
@@ -28,9 +29,18 @@ $text:          $black;
 $paleyellow:    rgba(255,  255, 191, 0.6);//pale yellow trans
 
 // FONTS
-$font:          'sinkin-400-regular', "Helvetica Neue", Arial, sans-serif;
-$fontHead:      sinkin-500-medium;
-$fontCopy:      sinkin-300-light;
+$font:            'sinkin-400-regular', "Helvetica Neue", Arial, sans-serif;
+$fontItalic:      'sinkin-400-italic', "Helvetica Neue", Arial, sans-serif;
+$fontHead:        'sinkin-700-bold', "Helvetica Neue", Arial, sans-serif;
+$fontHeadItalic:  'sinkin-700-bold-italic', "Helvetica Neue", Arial, sans-serif;
+$fontCopy:        'sinkin-400-regular', "Helvetica Neue", Arial, sans-serif;
+$fontCopyBold:    'sinkin-700-bold', "Helvetica Neue", Arial, sans-serif;
+$fontCopyItalic:  'sinkin-400-italic', "Helvetica Neue", Arial, sans-serif;
+$fontMed:         'sinkin-500-medium', "Helvetica Neue", Arial, sans-serif;
+$fontBold:        'sinkin-700-bold', "Helvetica Neue", Arial, sans-serif;
+$fontMedItalic:   'sinkin-500-medium_italic', "Helvetica Neue", Arial, sans-serif;
+$fontBlack:       'sinkin-800-black', "Helvetica Neue", Arial, sans-serif;
+$fontBlackItalic: 'sinkin-800-black-italic', "Helvetica Neue", Arial, sans-serif;
 
 a {
     text-decoration: none;
@@ -42,5 +52,6 @@ a {
         $visited: darken($primary,15),
         $hover: darken($primary,15));
 }
+
 
 
