@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="420px" height="44px" viewBox="0 0 420 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>artis-secure-logo-square</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FED797" offset="0%"></stop>
+            <stop stop-color="#FF9F00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="19.0736607%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C6ECEC" offset="0%"></stop>
+            <stop stop-color="#39ACAC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Path-2-+-Path-2-+-artis-secure" sketch:type="MSLayerGroup" transform="translate(1.000000, 3.000000)">
+            <path d="M31,10 L36,10 L36,40 L1.0658141e-14,39.516129 L1.0658141e-14,10 L4,10 L4,0 L31,0 L31,10 L31,10 Z M15,16 L21,16 L21,28 L15,28 L15,16 Z M12,5 L24,5 L24,11 L12,11 L12,5 Z" id="Path-2" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M45,15.984127 L45,10 L75,10 L75,39 L45,39 L45,21.5079365 L63.0952381,21.5079365 L63.0952381,15.984127 L45,15.984127 Z M63,27 L57,27 L57,33 L63,33 L63,27 Z M104,10 L104,15.984127 L92,15.984127 L92,39 L80,39 L80,10 L104,10 Z M134,10.0666667 L134,15.6666667 L128.24,15.6666667 L128.24,39 L116.24,39 L116.24,15.6666667 L110,15.6666667 L110,10.0666667 L116.24,10.0666667 L116.24,4 L128.24,4 L128.24,10.0666667 L134,10.0666667 Z M139,39 L139,16 L151,16 L151,39 L139,39 Z M139,4 L151,4 L151,10 L139,10 L139,4 Z M157,10 L187,10 L187,15.984127 L168.904762,15.984127 L168.904762,21.5079365 L187,21.5079365 L187,39 L157,39 L157,33.015873 L175.095238,33.015873 L175.095238,27.4920635 L157,27.4920635 L157,10 Z M192,28 L192,22 L210,22 L210,28 L192,28 Z M216,10 L246,10 L246,15.984127 L227.904762,15.984127 L227.904762,21.5079365 L246,21.5079365 L246,39 L216,39 L216,33.015873 L234.095238,33.015873 L234.095238,27.4920635 L216,27.4920635 L216,10 Z M269,22 L269,16 L263,16 L263,22 L269,22 Z M281,10 L281,27.4920635 L262.904762,27.4920635 L262.904762,33.015873 L281,33.015873 L281,39 L251,39 L251,10 L281,10 Z M317,39 L287,39 L287,10 L317,10 L317,15.984127 L298.904762,15.984127 L298.904762,33.015873 L317,33.015873 L317,39 Z M340.095238,10 L352,10 L352,39 L322,39 L322,10 L333.904762,10 L333.904762,33.015873 L340.095238,33.015873 L340.095238,10 Z M381,10 L381,15.984127 L369,15.984127 L369,39 L357,39 L357,10 L381,10 Z M404,22 L404,16 L398,16 L398,22 L404,22 Z M416,10 L416,27.4920635 L397.904762,27.4920635 L397.904762,33.015873 L416,33.015873 L416,39 L386,39 L386,10 L416,10 Z" id="artis-secure" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
