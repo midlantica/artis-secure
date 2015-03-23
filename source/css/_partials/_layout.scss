@@ -16,7 +16,7 @@ body {
 
 header, footer {
     @include span-columns(12);
-    clear: both;
+    // clear: both;
     @include clearfix;
     @include media($mobile) {
         @include span-columns(6);
