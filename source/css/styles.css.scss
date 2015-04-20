@@ -16,6 +16,14 @@ body {
     // background-image: linear-gradient(#404040, #0d0d0d);
     margin-top: 1em;
     background-image: url(../img/rubber_grip.png);
+
+    @include media($middle) {
+        @include span-columns(6);
+        @include border-top-radius(0);
+        @include border-bottom-radius(0);
+        margin: 0;
+    }
+
     @include media($mobile) {
         @include span-columns(6);
         @include border-top-radius(0);
@@ -102,7 +110,15 @@ ul.teachings {
 
 main {
     padding: 0.2em 0em 0em;
+    margin-bottom: 1em;
     // padding: 0.2em 1.5em 1em;
+
+    @include media($middle) {
+        @include span-columns(4);
+        // padding-left: 0;
+        // padding-right: 0;
+    }
+
     @include media($mobile) {
         padding-left: 0;
         padding-right: 0;
@@ -118,7 +134,14 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 0.0em;
 }
 
-h1 { font-size: 1.2em; }
+h1 {
+  font-size: 1.2em;
+
+  @include media($mobile) {
+    font-size: 0.9em;
+  }
+}
+
 h2 { font-size: 1.1em; }
 h3 { font-size: 1em; }
 h4 {
@@ -138,13 +161,20 @@ h6 {
 }
 
 header, footer {
+    @include span-columns(12);
     padding: 1em 1.6em 1em;
     background: $primaryDk;
     // @include linear-gradient(lighten($primary,05),darken($primary,15));
     @include border-top-radius(6px);
-    @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
-    @include clearfix;
-    clear: both;
+    // @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
+    // @include clearfix;
+    // clear: both;
+
+    @include media($middle) {
+        @include span-columns(6);
+        @include border-top-radius(0);
+        @include border-bottom-radius(0);
+    }
 
     @include media($mobile) {
         @include span-columns(6);
@@ -163,11 +193,24 @@ header, footer {
         margin-top: 0;
     }
 
+    a {
+      padding: 0;
+      margin: 0;
+
+    }
+
     .branding {
-        @include span-columns(7);
-        @include media($mobile) {
-            @include span-columns(7);
+        @include span-columns(9);
+
+        @include media($middle) {
+            @include span-columns(4);
+            // background:red;
         }
+
+        @include media($mobile) {
+            @include span-columns(6);
+        }
+
         .logo {
             fill: $accent;
             display: block;
@@ -184,6 +227,18 @@ header, footer {
             margin-right: 0.5em;
             margin-top: -0.05em;
             -webkit-font-smoothing: antialiased;
+
+            @include media($middle) {
+                @include span-columns(6);
+                margin-top: 0;
+                width: 62px;
+                // width: 281px;
+                height: 44px;
+                // height: 34px;
+                background-size: 62px 44px;
+                // background-size: 281px 34px;
+            }
+
             @include media($mobile) {
                 @include span-columns(6);
                 margin-top: 0;
@@ -205,6 +260,14 @@ header, footer {
             -webkit-font-smoothing: antialiased;
             letter-spacing: 0.01em;
             // @include text-shadow(transparentize($ivory,.5) 0px 1px 1px);
+
+            // @include media($middle) {
+              // font-size: 1.98em;
+            // }
+
+            @include media($mobile) {
+              font-size: 1.98em;
+            }
         }
         .tagline {
             font-size: 0.75em;
@@ -214,23 +277,37 @@ header, footer {
             -webkit-font-smoothing: antialiased;
             letter-spacing: 0.022em;
 
+            @include media($mobile) {
+              font-size: 8px;
+              letter-spacing: 0.05em;
+            }
+
         }
     }
 
     .headContact {
         margin: .5em 0 0;
-        @include span-columns(5);
+        @include span-columns(3);
         @include omega;
-        width: 42.29137%;
+        // width: 42.29137%;
+
+        @include media($middle) {
+            @include span-columns(2);
+            @include omega;
+            margin-bottom: 0em;
+            margin: 0.8em 0 0;
+        }
+
         @include media($mobile) {
             @include span-columns(6);
             @include omega;
             margin-bottom: 0em;
             margin: 0.8em 0 0;
         }
+
         button.linkedin {
             float: right;
-            // clear: right;
+            clear: right;
             border: none;
             font-size: 0.8em;
             padding: 0.45em 0.4em 0.37em 0.6em;
@@ -245,10 +322,16 @@ header, footer {
                 outline: none;
             }
 
+            @include media($middle) {
+                float: right;
+                clear: left;
+            }
+
             @include media($mobile) {
                 float: left;
                 clear: left;
             }
+
             a {
                 color: $greyLightest;
             }
@@ -280,15 +363,23 @@ header, footer {
             float: right;
             clear: right;
             -webkit-font-smoothing: antialiased;
-            @include media($mobile) {
-                // @include span-columns(3);
-                float: right;
-                // clear: left;
-                text-align: right;
-                margin: -0.3em 0 0;
 
-
+            @include media($middle) {
+              // @include span-columns(3);
+              float: right;
+              // clear: left;
+              text-align: right;
+              margin: -0.3em 0 0;
             }
+
+            @include media($mobile) {
+              // @include span-columns(3);
+              float: right;
+              // clear: left;
+              text-align: right;
+              margin: 0em 0 0;
+            }
+
             &:hover {
                 text-decoration: underline;
             }
@@ -323,13 +414,19 @@ nav {
               cursor: pointer;
             }
 
+            @include media($middle) {
+                // width: 100%;
+            }
+
             @include media($mobile) {
                 width: 100%;
+                border-right: none;
+                border-bottom: 1px solid transparentize($white,.85);
             }
 
             a {
-                // color: red;
-                color: $accentDk;
+                color: $primary;
+                // color: $accentDk;
                 padding: 0.5em 1.5em 0.6em;
                 display: block;
                 &:hover {
@@ -471,17 +568,29 @@ footer {
     background: transparentize($ivory,.1);
 }
 
-.quote,.quoteAtt {
+.quote,
+.quoteAtt {
     color: shade($accent,40);
     font-size: 0.6em;
     line-height: 2.15;
     margin: 1em 0 0;
+
+    @include media($middle) {
+        color: shade($accent,40);
+        font-size: 0.75em;
+        line-height: 2.15;
+        // margin: 0em 0 0 0em !important;
+        text-align: left;
+        margin: 2em 0 0;
+    }
+
     @include media($mobile) {
         color: shade($accent,40);
-        font-size: 0.65em;
+        font-size: 0.75em;
         line-height: 2.15;
-        margin: 0em 0 0 0em !important;
+        // margin: 1em 0 0 0em !important;
         text-align: left;
+        margin: 0.5em 0 0;
     }
 }
 
@@ -489,34 +598,58 @@ footer {
     font-size: 0.6em;
     float: right;
     margin-right: 1em;
-    margin-top: 0;
+    margin-top: 0 !important;
     font-style: italic;
+
+    @include media($middle) {
+        font-size: 0.7em;
+        float: left;
+        margin-right: 1em;
+        margin-top: 0 !important;
+        font-style: italic;
+    }
+
     @include media($mobile) {
         font-size: 0.7em;
         float: left;
         margin-right: 1em;
-        margin-top: 0;
+        margin-top: 0 !important;
         font-style: italic;
-
     }
 }
 
 .bioPic {
     border: 0;
     background: url('../img/geoffrey_hill.jpg');
-    background-size: 90px 100px;
+    background-size: 90px 96px;
     width: 90px;
-    height: 100px;
-    @include media($mobile) {
+    height: 90px;
+    border-radius: 6em;
+
+    @include media($middle) {
         // @include span-columns(2);
-        background-size: 90px 100px;
-        // background-size: 90px 100px;
         width: 90px;
-        height: 100px;
+        height: 90px;
+        background-size: 90px 96px;
+        // background-size: 90px 100px;
+        // width: 90px;
+        // height: 100px;
         float: left;
         margin-right: 1em;
-        @include border-top-radius(0);
-        @include border-bottom-radius(0);
+        border-radius: 6em;
+    }
+
+    @include media($mobile) {
+        // @include span-columns(2);
+        width: 90px;
+        height: 90px;
+        background-size: 90px 96px;
+        // background-size: 90px 100px;
+        // width: 90px;
+        // height: 100px;
+        float: left;
+        margin-right: 1em;
+        border-radius: 6em;
     }
 }
 
