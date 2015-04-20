@@ -14,7 +14,7 @@ body {
     // background: $primary;
     // background: url(../img/pw_maze_white.png);
     // background-image: linear-gradient(#404040, #0d0d0d);
-    margin-top: 0.5em;
+    margin-top: 1em;
     background-image: url(../img/rubber_grip.png);
     @include media($mobile) {
         @include span-columns(6);
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5 {
     font-family: $fontHead;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.0em;
 }
 
 h1 { font-size: 1.2em; }
@@ -139,8 +139,8 @@ h6 {
 
 header, footer {
     padding: 1em 1.6em 1em;
-    // background: $primary;
-    @include linear-gradient(lighten($primary,05),darken($primary,15));
+    background: $primaryDk;
+    // @include linear-gradient(lighten($primary,05),darken($primary,15));
     @include border-top-radius(6px);
     @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
     @include clearfix;
@@ -197,22 +197,22 @@ header, footer {
         }
         .brandName {
             color: $accent;
-            font-size: 2.15em;
+            font-size: 2.45em;
             font-family: sinkin-500-medium;
             margin: 0.1em 0 0.25em;
             line-height: 0.7em;
             display: block;
             -webkit-font-smoothing: antialiased;
             letter-spacing: 0.01em;
-            @include text-shadow(transparentize($ivory,.5) 0px 1px 1px);
+            // @include text-shadow(transparentize($ivory,.5) 0px 1px 1px);
         }
         .tagline {
-            font-size: 0.85em;
+            font-size: 0.75em;
             font-family: $fontHead;
             color: lighten(transparentize($secondary,.25),50);
             display: block;
             -webkit-font-smoothing: antialiased;
-            letter-spacing: 0.045em;
+            letter-spacing: 0.022em;
 
         }
     }
@@ -297,7 +297,8 @@ header, footer {
 }
 
 nav {
-    @include linear-gradient(lighten($primary,15),darken($primary,05));
+  background: $accent;
+    // @include linear-gradient(lighten($primary,15),darken($primary,05));
     @include clearfix;
     clear: both;
 
@@ -310,14 +311,16 @@ nav {
             list-style-type: none;
             float: left;
             display: inline-block;
-            // background: $primary;
-            @include linear-gradient(lighten($primary,05),darken($primary,15));
-            @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
+            background: $accent;
+            // @include linear-gradient(lighten($primary,05),darken($primary,15));
+            // @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
             // padding: 0.3em 1.5em 0.6em;
             border-right: 1px solid $primaryDk;
             &:hover {
-                @include linear-gradient(lighten($primary,15),darken($primary,05));
-                cursor: pointer;
+              color: $white;
+              background: $accentDk;
+              // @include linear-gradient(lighten($primary,15),darken($primary,05));
+              cursor: pointer;
             }
 
             @include media($mobile) {
@@ -325,21 +328,24 @@ nav {
             }
 
             a {
+                // color: red;
                 color: $accentDk;
                 padding: 0.5em 1.5em 0.6em;
                 display: block;
                 &:hover {
-                    color: $accent;
+                    color: $white;
+                    // color: $accent;
                 }
                 &:visited {
-                    color: $accentDk;
+                  // color: red;
+                    // color: $accentDk;
                 }
             }
 
             &:hover a {
                 // @include linear-gradient(lighten($primary,15),darken($primary,05));
                 cursor: pointer;
-                color: $accent;
+                color: $white;
             }
 
         }
@@ -351,73 +357,97 @@ nav {
 // NAV BUTTONS
 
 .index nav ul li.home {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
 
 .contact nav ul li.contact {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
 
 .about nav ul li.about {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
 
 .threatModelling nav ul li.threat {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
 
 .secureCodingPatterns nav ul li.secureCoding {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
 
 .secureEngineering nav ul li.secureEng {
-    @include linear-gradient(lighten($accent,25),darken($accent,15));
-    color: $primaryDk !important;
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
     a {
-        color: $primaryDk;
+        color: $white;
         &:visited,
         &:hover {
-            color: $primaryDk !important;
+            color: $white !important;
         }
     }
 }
@@ -493,7 +523,8 @@ footer {
 .servicesBox {
     background-image: url(../img/rubber_grip_@2X.png);
     @include border-radius(5px);
-    @include linear-gradient(lighten($primary,05),darken($primary,15));
+    background: $primary;
+    // @include linear-gradient(lighten($primary,05),darken($primary,15));
     padding: 1em 1.5em 1.1em;
     margin: 1em 0em;
 
@@ -551,7 +582,7 @@ footer {
     letter-spacing: 0.04em;
     -webkit-font-smoothing: antialiased;
     @include box-shadow(darken($accent,25) 0px 3px 0px);
-    box-shadow: darken($accent,25) 0px 3px 0px !important;
+    // box-shadow: darken($accent,25) 0px 3px 0px !important;
     &:hover {
         background: $accentDk !important;
         @include box-shadow(darken($accent,30) 0px 3px 0px);
@@ -560,7 +591,7 @@ footer {
         padding: 0.3em 1.1em 0.65em !important;
         background: $accentDk !important;
         @include box-shadow(darken($accent,25) 0px 3px 0px);
-        box-shadow: darken($accent,25) 0px 3px 0px !important;
+        // box-shadow: darken($accent,25) 0px 3px 0px !important;
         &:hover {
             @include box-shadow(darken($accent,30) 0px 3px 0px);
         }

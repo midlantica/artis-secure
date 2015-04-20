@@ -12,8 +12,8 @@
 $primary:       #333;
 $primaryDk:     darken($primary,10);
 $secondary:     lighten($primary,20);
-$accent:        #66CCCC;
-$accentDk:      darken($accent,20);
+$accent:        lighten(rgba(7, 119, 180, 1),10);
+$accentDk:      darken($accent,12);
 $bkgd:          #E1DDD2;
 $bkgdLt:        lighten($bkgd,5);
 $ivory:         rgba(255, 253, 244, 1);// #FFFDF4 IVORY
