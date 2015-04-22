@@ -1,0 +1,199 @@
+
+// @include media($mobile) {
+//   .nav-collapse {
+//     width: 100%;
+//     display: block;
+
+//     @include clearfix;
+//     // border-right: none;
+//     // border-bottom: 1px solid transparentize($white,.85);
+//   }
+// }
+
+nav.nav-collapse {
+  background: $accent;
+  // @include linear-gradient(lighten($primary,15),darken($primary,05));
+  @include clearfix;
+  clear: both;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @include clearfix;
+
+    li {
+      list-style-type: none;
+      float: left;
+      display: inline-block;
+      background: $accent;
+      // @include linear-gradient(lighten($primary,05),darken($primary,15));
+      // @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
+      // padding: 0.3em 1.5em 0.6em;
+      border-right: 1px solid $primaryDk;
+      border-bottom: 1px solid transparentize($white,.85);
+      &:hover {
+        color: $white;
+        background: $accentDk;
+        // @include linear-gradient(lighten($primary,15),darken($primary,05));
+        cursor: pointer;
+      }
+
+      @include media($middle) {
+        // width: 100%;
+      }
+
+      @include media($mobile) {
+          width: 100%;
+          border-right: none;
+          border-bottom: 1px solid transparentize($white,.3);
+      }
+
+      a {
+          color: $primary;
+          // color: $accentDk;
+          padding: 0.5em 1.5em 0.6em;
+          display: block;
+
+          &:hover {
+              color: $white;
+              // color: $accent;
+          }
+          &:visited {
+            // color: red;
+              // color: $accentDk;
+          }
+      }
+
+      &:hover a {
+          // @include linear-gradient(lighten($primary,15),darken($primary,05));
+          cursor: pointer;
+          color: $white;
+      }
+
+    }
+
+  }
+}
+
+// #######################
+// NAV BUTTONS
+
+.index nav ul li.home {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+// >>>>>>>>>>>>>>
+
+.contact nav ul li.contact {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+//>>>>>>>>>>>>>>>
+
+.about nav ul li.about {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+//>>>>>>>>>>>>>>>>>>>
+
+.threatModelling nav ul li.threat {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+//>>>>>>>>>>>>>>>>>
+
+.secureCodingPatterns nav ul li.secureCoding {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+//>>>>>>>>>>>>>>>>>>
+
+.secureEngineering nav ul li.secureEng {
+  background: $accentDk;
+    // @include linear-gradient(lighten($accent,25),darken($accent,15));
+    color: $white !important;
+    &:hover {
+      background: $accentDk;
+    }
+    a {
+        color: $white;
+        &:visited,
+        &:hover {
+            color: $white !important;
+        }
+    }
+}
+
+// END // NAV BUTTONS
+// ##################
+
+
+
+
+
+
+
+
+
+
+

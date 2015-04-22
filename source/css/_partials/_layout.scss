@@ -1,8 +1,8 @@
 //  GRID SETTINGS
 // $local-max-width: 400px;
 $max-width: em(1088) !default;
-$middle: new-breakpoint(max-width 760px 6);
-$mobile: new-breakpoint(max-width 600px 6);
+$middle: new-breakpoint(max-width 860px 6);
+$mobile: new-breakpoint(max-width 640px 6);
 
 // .element {
 //     @include media($mobile) {

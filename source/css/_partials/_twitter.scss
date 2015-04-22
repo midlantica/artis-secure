@@ -1,0 +1,61 @@
+#twitter-widget-0 {
+  //
+  @include media($mobile) {
+    width: 100% !important;
+  }
+}
+
+.twitterBox {
+    background: $ivory;
+    border: 1px solid lighten($grey,30);
+    // border-radius: 4px;
+    @include border-radius(4px);
+    @include box-shadow($primary 0px 2px 2px -1px);
+
+    @include media($mobile) {
+      width: 100%;
+    }
+
+    .twitterHeader {
+        // background: red;
+        background: lighten($grey,30);
+        @include border-top-radius(3px);
+        // @include border-top-right-radius(3px);
+        h3 {
+            color: $ivory;
+            font-size: 0.7em;
+            line-height: 1.6;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding-bottom: 0.3em;
+
+        }
+    }
+
+    .twitterFeed {
+        padding: 0.2em 0.6em .3em;
+        background: lighten($accent,42);
+        @include border-bottom-radius(4px);
+        p {
+            font-size: 0.65em;
+            line-height: 2em;
+            margin: 0;
+            &.small {
+                font-size: .6em;
+                text-align: right;
+                font-style: italic;
+                margin-right: 1em;
+            }
+        }
+        hr {
+            margin: 0.5em 0 0.3em;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        }
+    }
+}
