@@ -1,41 +1,30 @@
-var home = "Home";
-var threat = "Threat Modelling";
-var secureCode = "Secure Coding Patterns";
-var secureEng = "Secure Engineering";
-var about = "About";
+var section = {
+    home       : 'Home',
+    threat     : 'Threat Modelling',
+    secureCode : 'Secure Coding Patterns',
+    secureEng  : 'Secure Engineering',
+    about      : 'About'
+};
 
 var bodyClass = document.body.className;
 var navText = document.querySelector('.nav-toggle');
-// var navText = document.getElementsByClassName('nav-toggle');
 
 if (bodyClass == "index") {
-  navText.innerHTML = home;
+  navText.textContent = section.home;
 }
 
 if (bodyClass == "threatModelling") {
-  navText.innerHTML = threat;
+  navText.textContent = section.threat;
 }
 
 if (bodyClass == "secureCodingPatterns") {
-  navText.innerHTML = secureCode;
+  navText.textContent = section.secureCode;
 }
 
 if (bodyClass == "secureEngineering") {
-  navText.innerHTML = secureEng;
+  navText.textContent = section.secureEng;
 }
 
 if (bodyClass == "about") {
-  navText.innerHTML = about;
+  navText.textContent = section.about;
 }
-
-  // var bodyThreat = document.getElementsByClassName('threatModelling');
-  // bodyThreat.textContent = threat;
-
-  // var bodySecure = document.getElementsByClassName('secureCodingPatterns');
-  // bodySecure.textContent = secureCode;
-
-  // var bodySecureEng = document.getElementsByClassName('secureEngineering');
-  // bodySecureEng.textContent = secureEng;
-
-  // var bodyAbout = document.getElementsByClassName('about');
-  // bodyAbout.textContent = about;

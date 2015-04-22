@@ -1,18 +1,6 @@
-
-// @include media($mobile) {
-//   .nav-collapse {
-//     width: 100%;
-//     display: block;
-
-//     @include clearfix;
-//     // border-right: none;
-//     // border-bottom: 1px solid transparentize($white,.85);
-//   }
-// }
-
 nav.nav-collapse {
   background: $accent;
-  // @include linear-gradient(lighten($primary,15),darken($primary,05));
+  @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
   @include clearfix;
   clear: both;
 
@@ -26,15 +14,16 @@ nav.nav-collapse {
       float: left;
       display: inline-block;
       background: $accent;
-      // @include linear-gradient(lighten($primary,05),darken($primary,15));
-      // @include box-shadow(transparentize(black,.5) 0px 2px 18px -2px);
-      // padding: 0.3em 1.5em 0.6em;
-      border-right: 1px solid $primaryDk;
-      border-bottom: 1px solid transparentize($white,.85);
+      border-right: 1px solid transparentize($primaryDk,.75);
+      border-bottom: none;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
       &:hover {
         color: $white;
         background: $accentDk;
-        // @include linear-gradient(lighten($primary,15),darken($primary,05));
         cursor: pointer;
       }
 
@@ -45,13 +34,12 @@ nav.nav-collapse {
       @include media($mobile) {
           width: 100%;
           border-right: none;
-          border-bottom: 1px solid transparentize($white,.3);
+          border-bottom: 1px solid transparentize($white,.85);
       }
 
       a {
           color: $primary;
-          // color: $accentDk;
-          padding: 0.5em 1.5em 0.6em;
+          padding: 0.5em 2em 0.6em;
           display: block;
 
           &:hover {
@@ -80,7 +68,6 @@ nav.nav-collapse {
 
 .index nav ul li.home {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -93,12 +80,9 @@ nav.nav-collapse {
         }
     }
 }
-
-// >>>>>>>>>>>>>>
 
 .contact nav ul li.contact {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -111,12 +95,9 @@ nav.nav-collapse {
         }
     }
 }
-
-//>>>>>>>>>>>>>>>
 
 .about nav ul li.about {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -129,12 +110,9 @@ nav.nav-collapse {
         }
     }
 }
-
-//>>>>>>>>>>>>>>>>>>>
 
 .threatModelling nav ul li.threat {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -147,12 +125,9 @@ nav.nav-collapse {
         }
     }
 }
-
-//>>>>>>>>>>>>>>>>>
 
 .secureCodingPatterns nav ul li.secureCoding {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -165,12 +140,9 @@ nav.nav-collapse {
         }
     }
 }
-
-//>>>>>>>>>>>>>>>>>>
 
 .secureEngineering nav ul li.secureEng {
   background: $accentDk;
-    // @include linear-gradient(lighten($accent,25),darken($accent,15));
     color: $white !important;
     &:hover {
       background: $accentDk;
@@ -184,10 +156,7 @@ nav.nav-collapse {
     }
 }
 
-// END // NAV BUTTONS
-// ##################
-
-
+// ##########
 
 
 
