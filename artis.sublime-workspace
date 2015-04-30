@@ -1,0 +1,1937 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"fontHead	 _typography.scss"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"threa",
+				"threatModelling	 _nav.scss"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"tr",
+				"tr	<tr>"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"header",
+				"headerArt	 styles.css.scss"
+			],
+			[
+				"galler",
+				"galleryGrid	 _gallery.scss"
+			],
+			[
+				"ga",
+				"galleryGrid	 _gallery.scss"
+			],
+			[
+				"Desi",
+				"Designs"
+			],
+			[
+				"et",
+				"shop_etsy.jpg	w:100 h:100"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"css",
+				"scss/"
+			],
+			[
+				"fo",
+				"fontawesome/"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"he",
+				"headerC.svg"
+			],
+			[
+				"i",
+				"visible"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"jqu",
+				"jquery-1.11.2"
+			],
+			[
+				"hot",
+				"hotItems〔variable〕"
+			],
+			[
+				"quer",
+				"querySelctorAll"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"pass",
+				"passBoth〔variable〕"
+			],
+			[
+				"pas",
+				"pass2〔variable〕"
+			],
+			[
+				"score",
+				"score2〔variable〕"
+			],
+			[
+				"pa",
+				"pass1"
+			],
+			[
+				"high",
+				"highScore2〔variable〕"
+			],
+			[
+				"get",
+				"getElementById('footer"
+			],
+			[
+				"qua",
+				"quayHotel〔variable〕"
+			],
+			[
+				"hote",
+				"hotelName"
+			],
+			[
+				"upda",
+				"updateMessage〔function〕"
+			],
+			[
+				"elS",
+				"elSign〔variable〕"
+			],
+			[
+				"string-opr",
+				"string-operator.js"
+			],
+			[
+				"arith",
+				"arithmetic-operator.js"
+			],
+			[
+				"array-",
+				"array-literal.js"
+			],
+			[
+				"art",
+				"artis-secure-logo-square.svg"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"hvr-ic",
+				"hvr-icon-bounce	 hover.css"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"transit",
+				"transition"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"top",
+				"border-top"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"con",
+				"console〔variable〕"
+			],
+			[
+				"gre",
+				"greyLightest	 _layout.scss"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"float",
+				"floatRight"
+			],
+			[
+				"artis",
+				"artis-secure_logo.svg"
+			],
+			[
+				"transition",
+				"transition-property"
+			],
+			[
+				"as",
+				"asap.css"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"sec",
+				"sectionTwo	 main.css.scss"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bs3-tab",
+				"bs3-table:hover	bs3-table-hover"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/layout.erb",
+			"settings":
+			{
+				"buffer_size": 2422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css.scss",
+			"settings":
+			{
+				"buffer_size": 19591,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 225.0,
+		"last_filter": "proje",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"pack",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pack ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pack up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"Linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"prefe",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"js",
+				"JSCS Formatter: Format this file"
+			],
+			[
+				"scss",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"ori",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"pack  ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"css",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"alig",
+				"AlignTab"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"ali",
+				"AlignTab"
+			],
+			[
+				"refer",
+				"File: Refresh"
+			],
+			[
+				"edit",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"synta",
+				"Syntax Manager: Reload Settings"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"termin",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pack lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"brows ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"jsc",
+				"JSCS Formatter: Format this file"
+			],
+			[
+				"jscs",
+				"JSCSFormatter: Set `node` Path"
+			],
+			[
+				"pref sublim lin",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"pref sub",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"jc",
+				"JSCSFormatter: Set Plugin Options"
+			],
+			[
+				"instal pack",
+				"Package Control: Install Package"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"pack rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"duplia",
+				"File: Duplicate"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"encode",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"wor wrp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"syntax text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"beua",
+				"HTMLBeautify"
+			],
+			[
+				"convert ",
+				"Convert Case: Title Case"
+			],
+			[
+				"convert case ",
+				"Convert Case: Swap Case"
+			],
+			[
+				"convert case",
+				"Convert Case: Title Case"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"pack install",
+				"Package Control: Install Package"
+			],
+			[
+				"spaces high",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"format",
+				"Format CSS: Compact (Break Selectors)"
+			],
+			[
+				"data",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"quot",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"change qu",
+				"ChangeQuotes"
+			],
+			[
+				"change q",
+				"ChangeQuotes"
+			],
+			[
+				"quote",
+				"ChangeQuotes"
+			],
+			[
+				"beaut",
+				"SassBeautify"
+			],
+			[
+				"htmk",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"url",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"HTML",
+				"HTMLBeautify"
+			],
+			[
+				"synt erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"haml",
+				"HTML2Haml: Convert file"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"view",
+				"View: Toggle Minimap"
+			],
+			[
+				"Pak in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"move ",
+				"File: Move"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Channel"
+			],
+			[
+				"pack  up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"lint html",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"pack resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack res",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 578.0
+	},
+	"console":
+	{
+		"height": 292.0,
+		"history":
+		[
+			"1=1",
+			"repl_clear",
+			"1+1",
+			"var day = 'DayBaby';",
+			"var day = DayBaby",
+			"clr",
+			"document.getElementsByTagName('div');",
+			"document.getElementsByTagName('footer');",
+			"clear",
+			":cls",
+			"clr",
+			"document.getElementsByTagName",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/layouts"
+	],
+	"file_history":
+	[
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_base.css.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/layouts/layout.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/_includes/_header.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/_includes/_nav.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_responsiveNav.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_nav.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/styles.css.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_layout.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/font-awesome/scss/font-awesome.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/font-awesome/scss/_variables.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_fonts.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/neat/_neat.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/about.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_typography.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/build/about.html",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/js/main.js",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/fonts/sinkin/sinkin_all.css",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/fonts/sinkin/Sinkin-700-bold/Sinkin-700-Bold.svg",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/config.rb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/secureCodingPatterns.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/_source/new_text.txt",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/js/vendor/responsive-nav.js",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/index.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/secureEngineering.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/threatModelling.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/_includes/_picQuote.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/js/responsive-nav-options.js",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/css/_partials/_twitter.scss",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/_includes/_twitter.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/_includes/_slideshow.html.erb",
+		"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/img/slides/slide_01.svg",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_typography.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_layout.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_social.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/styles.css.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_contact.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/index.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_header.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/contact.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/original-artwork.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_nav.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_gallery.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_shop.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_mortar.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/digital-artwork.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/patterns.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/artists-statement.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_nav.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_social.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/icons/facebook_hv.svg",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/icons/facebook.svg",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/layouts/layout.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/js/_footerJS.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/shop.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/bower_components/bourbon/app/assets/stylesheets/addons/_buttons.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_footer.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_socialOrig.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_base.css.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/gallery.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_nav_gall.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_colors.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/vendor/_lightbox.css",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_favicons.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/js/vendor/lightbox.js",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_gallery_nav.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_modal.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/js/popOver.js",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/vendor/modal.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/vendor/modal.css.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/vendor/modal.css",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/app_PopOver/_app_popOver.pxm",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_menu.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/js/menu.js",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_imports/_form.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_navigation.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/emailconf.html",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/partials/_ifIE.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/config.rb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/bower_components/fontawesome/scss/font-awesome.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_typography.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_nav.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_social.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/vendor/fontawesome/_variables.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/bower_components/fontawesome/scss/_variables.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_fonts.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/svgDefs.html",
+		"/Users/drew/Desktop/joannaRe.txt",
+		"/Users/drew/Desktop/history a process.txt",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/headerC.svg",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/Gemfile",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/img/header.svg",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_modal.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/stylesOLD.css.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/source/css/_partials/_layout.scss",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valApril/.editorconfig",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/User/SyntaxMgr.sublime-settings",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valentinadesign/source/config.rb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valentinadesign/build/js/popOver.js",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valentinadesign/source/about.html.erb",
+		"/Users/drew/Dropbox/Valentina/valentina_website/valentinadesign/.powenv",
+		"/Users/drew/Dropbox/Work/drewharper/drewfeb/Gemfile",
+		"/Users/drew/Dropbox/Work/drewharper/drewfeb/.gitignore",
+		"/Users/drew/Dropbox/Work/drewharper/drewfeb/source/css/main.css.scss",
+		"/Users/drew/Dropbox/Work/drewharper/drewfeb/source/css/all.css",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/sass/styles.scss",
+		"/Users/drew/Dropbox/Work/drewharper/_old/drewharper.com/config.rb",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/Gemfile",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/css/styles.css",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/contact.html.erb",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/img/_notes/contact_bird.png.mno",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/build/emailconf.html",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/build/css/styles.css",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/_footer.erb",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/shop.html.erb",
+		"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/build/shop.html",
+		"/Users/drew/.jscsrc",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Installed Packages/JSCS-Formatter.sublime-package/JSCSFormatter.sublime-settings",
+		"/Users/drew/Dropbox/Work/learn/javascriptBook/js/example-c04.js",
+		"/Users/drew/Dropbox/Work/learn/javascriptBook/.jscsrc",
+		"/Users/drew/Dropbox/Work/learn/javascriptBook/config.jscsrc",
+		"/Users/drew/Dropbox/Work/learn/javascriptBook/config.jscsrc.js",
+		"/Users/drew/Dropbox/Work/learn/javascriptBook/js/date-object.js",
+		"/Users/drew/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 222.0,
+		"where_history":
+		[
+			"/Users/drew/Dropbox/Work/drewharper/artis-secure/",
+			"/Users/drew/Dropbox/Valentina/valentina_website/valApril/",
+			"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/source/",
+			"/Users/drew/Dropbox/valentina/valentina_website/valentinadesign CURRENT/",
+			"/Users/drew/Dropbox/Work/learn/javascriptBook/c05",
+			"/Users/drew/Dropbox/Work/learn/javascriptBook/c04",
+			"/Users/drew/Dropbox/Work/drewharper/artis-secure/source/",
+			"/Users/drew/Dropbox/Work/drewharper/geoff/source/",
+			"/Users/drew/Dropbox/Work/drewharper/geoff/",
+			"/Users/drew/Dropbox/Work/drewharper/geoff/source/",
+			"/Users/drew/Dropbox/Work/drewharper/geoff/",
+			"/Users/drew/Dropbox/Work/drewharper/drewfeb/",
+			"/Users/drew/Dropbox/Work/drewharper/drewfeb/source/",
+			"/Users/drew/Dropbox/Work/drewharper/drewharper.com/source/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"html",
+			"family",
+			".nav-toggle",
+			"    // @include linear-gradient(lighten($accent,25),darken($accent,15));\n",
+			"//>>>>>>>>>>>>>>>>>>",
+			"retina",
+			"innerHTML",
+			"textContent",
+			"==",
+			"navText",
+			"label",
+			"opts",
+			"label",
+			"navText",
+			"label",
+			"=== true ",
+			"bodyIndex",
+			"font",
+			"size",
+			"font-size",
+			"padding",
+			"active",
+			".nav-toggle",
+			".",
+			",",
+			"animation",
+			"index",
+			"sandbox",
+			"nav",
+			"20em",
+			"nav",
+			"7",
+			"brandName",
+			"mobile",
+			"element",
+			"860px",
+			"860",
+			"li.home",
+			"li.home a:hover",
+			"header",
+			"fa-spin ",
+			"box-shadow",
+			"nav",
+			"backgr",
+			"color:",
+			".png",
+			".galleryGrid",
+			"li.galleryGrid",
+			".socialIconsBox",
+			"aside.social",
+			".content aside.social",
+			"social",
+			"content",
+			"headerArt",
+			".socialIconsBox",
+			"first",
+			"3",
+			"43",
+			"social",
+			"contact",
+			"    ",
+			"table",
+			"contactContent",
+			"col1",
+			".contactCol",
+			"contactCol",
+			"tr-cells",
+			"size=\"19\"",
+			".email",
+			"email",
+			"contactForm",
+			"padding-right",
+			".homeBtn",
+			"homeBtn",
+			"galleryGrid",
+			"shopGrid",
+			"2",
+			"itMargin",
+			"itMarginT1",
+			"itPaddingT1",
+			"itMarginP1",
+			"itMarginT1",
+			"&.",
+			"Btn",
+			"Btn\"",
+			"url(../../img",
+			"Btn_hv.svg",
+			"Btn.svg",
+			"Btn_hv",
+			"Btn.svg",
+			" background-image: url(../../",
+			"&.",
+			"-hv",
+			"background-image: url(../",
+			"span",
+			"-btn",
+			"full",
+			"#ffffff",
+			"href=\"/",
+			"loading",
+			"144",
+			"72",
+			"144",
+			"\">",
+			"\n",
+			"../img",
+			"lb-nextLink",
+			"animate",
+			".lb-next",
+			"animat",
+			".lb-next:hover",
+			"title=\"",
+			"\"\n        <a",
+			"\"\n        title",
+			"title",
+			"oa_",
+			"oa_title",
+			"img",
+			"loading.gif",
+			"gallery",
+			"../img",
+			"/*",
+			"headerC",
+			".headerArt",
+			"hidden",
+			"visibility: hidden;",
+			"galleryGrid",
+			"li.galleryGrid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<link rel=\"stylesheet\" href=\"../css/",
+			"<a href=\"../js/",
+			"<a href=\"../js/initial",
+			"a href=\"../js/initial",
+			"<script src=\"../js/",
+			"<a href=\"../js/",
+			"src=\"../js/",
+			"<img src=\"../images/",
+			"\"stylesheet\" href=\"../css/",
+			"href=\"../",
+			"$accentDk"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1269
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/layout.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2320,
+								2242
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/styles.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.636546297534,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 279.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "artis.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lay",
+				"source/layouts/layout.erb"
+			],
+			[
+				"base",
+				"source/css/_base.css.scss"
+			],
+			[
+				"header",
+				"source/_includes/_header.html.erb"
+			],
+			[
+				"respo",
+				"source/css/_partials/_responsiveNav.scss"
+			],
+			[
+				"nav",
+				"source/css/_partials/_nav.scss"
+			],
+			[
+				"styl",
+				"source/css/styles.css.scss"
+			],
+			[
+				"typo",
+				"source/css/_partials/_typography.scss"
+			],
+			[
+				"about",
+				"source/about.html.erb"
+			],
+			[
+				"style",
+				"source/css/styles.css.scss"
+			],
+			[
+				"sinkin-700-bold",
+				"source/css/fonts/sinkin/Sinkin-700-bold/Sinkin-700-Bold.svg"
+			],
+			[
+				"sinkin_all",
+				"source/css/fonts/sinkin/sinkin_all.css"
+			],
+			[
+				"font",
+				"source/css/_partials/_fonts.scss"
+			],
+			[
+				"resp",
+				"source/js/vendor/responsive-nav.js"
+			],
+			[
+				"secu",
+				"source/secureCodingPatterns.html.erb"
+			],
+			[
+				"secure",
+				"source/secureEngineering.html.erb"
+			],
+			[
+				"thre",
+				"source/threatModelling.html.erb"
+			],
+			[
+				"abou",
+				"source/about.html.erb"
+			],
+			[
+				"ind",
+				"source/index.html.erb"
+			],
+			[
+				"layou",
+				"source/layouts/layout.erb"
+			],
+			[
+				"index",
+				"source/index.html.erb"
+			],
+			[
+				"inde",
+				"source/index.html.erb"
+			],
+			[
+				"twitter",
+				"source/_includes/_twitter.html.erb"
+			],
+			[
+				"twittscss",
+				"source/css/_partials/_twitter.scss"
+			],
+			[
+				"bas",
+				"source/css/_base.css.scss"
+			],
+			[
+				"slides",
+				"source/_includes/_slideshow.html.erb"
+			],
+			[
+				"slide",
+				"source/img/slides/slide_01.svg"
+			],
+			[
+				"patter",
+				"source/patterns.html.erb"
+			],
+			[
+				"digit",
+				"source/digital-artwork.html.erb"
+			],
+			[
+				"art",
+				"source/original-artwork.html.erb"
+			],
+			[
+				"galler",
+				"source/css/_gallery.scss"
+			],
+			[
+				"contact",
+				"source/css/_contact.scss"
+			],
+			[
+				"social",
+				"source/css/_imports/_social.scss"
+			],
+			[
+				"typ",
+				"source/css/_imports/_typography.scss"
+			],
+			[
+				"ori",
+				"source/original-artwork.html.erb"
+			],
+			[
+				"layout",
+				"source/css/_imports/_layout.scss"
+			],
+			[
+				"cont",
+				"source/css/_contact.scss"
+			],
+			[
+				"patt",
+				"source/patterns.html.erb"
+			],
+			[
+				"butt",
+				"bower_components/bourbon/app/assets/stylesheets/addons/_buttons.scss"
+			],
+			[
+				"foot",
+				"source/partials/_footer.erb"
+			],
+			[
+				"orig",
+				"source/original-artwork.html.erb"
+			],
+			[
+				"shop",
+				"source/shop.html.erb"
+			],
+			[
+				"gall",
+				"source/gallery.html.erb"
+			],
+			[
+				"patterns",
+				"source/patterns.html.erb"
+			],
+			[
+				"hea",
+				"source/partials/_header.erb"
+			],
+			[
+				"footer",
+				"source/partials/_footer.erb"
+			],
+			[
+				"heade",
+				"source/partials/_header.erb"
+			],
+			[
+				"color",
+				"source/css/_colors.scss"
+			],
+			[
+				"favicon",
+				"source/partials/_favicons.erb"
+			],
+			[
+				"lightbox",
+				"source/css/vendor/_lightbox.css"
+			],
+			[
+				"lightbo",
+				"source/js/vendor/lightbox.js"
+			],
+			[
+				"gallery",
+				"source/css/_gallery.scss"
+			],
+			[
+				"nav_gall",
+				"source/css/_imports/_nav_gall.scss"
+			],
+			[
+				"laout",
+				"source/layouts/layout.erb"
+			],
+			[
+				"artis",
+				"source/artists-statement.html.erb"
+			],
+			[
+				"popover.js",
+				"source/js/popOver.js"
+			],
+			[
+				"modal",
+				"source/css/_imports/_modal.scss"
+			],
+			[
+				"popover",
+				"source/js/popOver.js"
+			],
+			[
+				"artist",
+				"source/artists-statement.html.erb"
+			],
+			[
+				"styles",
+				"source/css/styles.css.scss"
+			],
+			[
+				"coloscs",
+				"source/css/_colors.scss"
+			],
+			[
+				"con",
+				"config.rb"
+			],
+			[
+				"socil",
+				"source/css/_partials/_social.scss"
+			],
+			[
+				"colo",
+				"source/css/_colors.scss"
+			],
+			[
+				"opove",
+				"source/js/popOver.js"
+			],
+			[
+				"popove",
+				"build/js/popOver.js"
+			],
+			[
+				"contact_",
+				"source/img/_notes/contact_bird.png.mno"
+			],
+			[
+				"get-elements-by-class-name",
+				"js/get-elements-by-class-name.js"
+			],
+			[
+				"stri",
+				"string-variable.js"
+			],
+			[
+				"layoscss",
+				"source/css/_partials/_layout.scss"
+			],
+			[
+				"head",
+				"source/_includes/_header.html.erb"
+			],
+			[
+				"mort",
+				"source/css/_partials/_mortar.scss"
+			],
+			[
+				"fonts",
+				"source/css/_partials/_fonts.scss"
+			],
+			[
+				"slideshow",
+				"source/_slideshow.html.erb"
+			],
+			[
+				"sty",
+				"source/css/styles.css.scss"
+			],
+			[
+				"layo",
+				"source/layouts/layout.erb"
+			],
+			[
+				"slid",
+				"source/_includes/_slides.erb"
+			],
+			[
+				"neut",
+				"source/css/fonts/neuton/neuton.css"
+			],
+			[
+				"mix",
+				"source/css/_partials/_mixins.scss"
+			],
+			[
+				"main",
+				"source/css/bourbon/addons/_margin.scss"
+			],
+			[
+				"skill",
+				"source/_includes/_skills.html.erb"
+			],
+			[
+				"skills",
+				"source/css/_skills.css.scss"
+			],
+			[
+				"js",
+				"source/_includes/_js_footer.erb"
+			],
+			[
+				"quotes",
+				"source/_includes/_quotes.html.haml"
+			],
+			[
+				"quote",
+				"source/_includes/_quotes.html.haml"
+			],
+			[
+				"navscss",
+				"source/css/_nav.css.scss"
+			],
+			[
+				"_includes/quotes",
+				"source/_includes/_quotes.html.haml"
+			],
+			[
+				"skil",
+				"source/css/_skills.scss"
+			],
+			[
+				"js_foo",
+				"source/_includes/_js_footer.erb"
+			],
+			[
+				"flexsli",
+				"source/css/flexslider.css"
+			],
+			[
+				"screen",
+				"source/scss/screen.scss"
+			],
+			[
+				"screen.scss",
+				"source/scss/screen.scss"
+			],
+			[
+				"basescss",
+				"source/scss/base.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
