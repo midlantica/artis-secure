@@ -89,6 +89,17 @@ ul.teachings {
             color: $accentDk;
             font-family: $fontMed;
             margin-left: 1.5em;
+
+            a {
+              color: $accentDk;
+              // text-decoration: underline;
+              border-bottom: 1px dotted $greyLighter;
+
+              &:hover {
+                border-bottom: 1px solid $accent;
+              }
+
+            }
         }
         .conference {
             font-size: 0.6em;
